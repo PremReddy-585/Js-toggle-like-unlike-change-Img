@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+img {
+    margin: 4px;
+    width: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.like-button {
+    color: #9aa5b1;
+    background-color: #cbd2d9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 8px;
+}
